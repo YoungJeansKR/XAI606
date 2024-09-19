@@ -1,4 +1,4 @@
-# Deep Learning for Accurate Classification of Dog and Cat Images
+# Classification of Dog and Cat Images via Convolutional Neural Networks
 
 ## Contents
 
