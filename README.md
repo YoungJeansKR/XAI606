@@ -16,7 +16,7 @@
 
 ## Project Title
 
-# Deep Learning for Accurate Classification of Dog and Cat Images
+## Deep Learning for Accurate Classification of Dog and Cat Images
 
 ## Project Introduction
 
