@@ -5,10 +5,10 @@ Repository of lecture "Applications and Practice in Neural Networks (XAI606)"
 
 <!-- toc -->
 
-I. [Project Title](#project-title)
+I. [Project Title](#project-title) </br>
 II. [Project Introduction](#project-introduction)
   - [Objective](#objective)
-  - [Motivation](#motivation)
+  - [Motivation](#motivation) </br>
 III. [Dataset Description](#dataset-description)
 
 <!-- tocstop -->
