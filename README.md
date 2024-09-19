@@ -79,7 +79,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 ### Access to the Datasets
 
 The dataset is hosted on a publicly accessible Google Drive folder to facilitate easy downloading:
-- **Google Drive Link:** [Dog vs. Cat Dataset(https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link)]
+- **Google Drive Link:** [Dog vs. Cat Dataset](https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link) </br>
 *Note: Ensure you have sufficient storage space and a stable internet connection before downloading the dataset.*
 
 Instructions for Participants:
