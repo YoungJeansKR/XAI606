@@ -15,10 +15,6 @@
 
 <!-- tocstop -->
 
-## Project Title
-
-**Deep Learning for Accurate Classification of Dog and Cat Images**
-
 ## Project Introduction
 
 ### Objective
