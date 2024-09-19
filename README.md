@@ -24,6 +24,7 @@ The primary objective of this project is to develop a robust image classificatio
 ## Motivation
 
 The motivation behind this project stems from several key considerations:
+
 - **Technological Advancement:** Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
 - **Practical Applications:** Accurate classification models can be applied in numerous industries, including pet-related businesses, veterinary diagnostics, content filtering on social media platforms, and e-commerce, where automated image tagging and sorting are valuable.
 - **Educational Contribution:** The project serves as an educational resource, offering insights into deep learning methodologies, data preprocessing techniques, and model evaluation strategies. It provides a practical framework for students and researchers to engage with contemporary machine learning challenges.
@@ -33,6 +34,7 @@ The motivation behind this project stems from several key considerations:
 The dataset comprises a substantial collection of images of dogs and cats, sourced to represent a wide variety of breeds, poses, and environments. This diversity ensures that the model learns to generalize well to new, unseen data.
 
 ## Dataset Details
+
 - **Total Number of Images:** 25,000
   - **Dog Images:** 12,500
   - **Cat Images:** 12,500
@@ -41,6 +43,7 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
 - **Color Mode:** RGB (3 channels)
 
 The dataset comprises a total of 25,000 color images of dogs and cats, sourced to represent a wide range of breeds, poses, and environments. This diversity is crucial for training a model that can generalize well to new, unseen data.
+
 - **Total Images:** 25,000
   - **Dog Images:** 12,500
   - **Cat Images:** 12,500
@@ -48,9 +51,11 @@ The dataset comprises a total of 25,000 color images of dogs and cats, sourced t
 - **Color Space:** RGB (3 channels)
 
 ## Data Splitting
+
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
 **Training Dataset**
+
 - **Number of Images:** 20,000
   - **Dogs:** 10,000 images
   - **Cats:** 10,000 images
@@ -58,6 +63,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Content:** Includes both the input images and their corresponding labels (dog or cat).
 
 **Validation Dataset**
+
 - **Number of Images:** 2,500
   - **Dogs:** 1,250 images
   - **Cats:** 1,250 images
@@ -65,6 +71,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Content:** Includes input images and labels.
 
 **Test Dataset**
+
 - **Number of Images:** 2,500
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
 - **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
