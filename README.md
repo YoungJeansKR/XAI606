@@ -42,14 +42,6 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
 - **Image Size:** Varied original sizes, standardized to 128x128 pixels during preprocessing
 - **Color Mode:** RGB (3 channels)
 
-The dataset comprises a total of 25,000 color images of dogs and cats, sourced to represent a wide range of breeds, poses, and environments. This diversity is crucial for training a model that can generalize well to new, unseen data.
-
-- **Total Images:** 25,000
-  - **Dog Images:** 12,500
-  - **Cat Images:** 12,500
-- **Image Format:** JPEG (.jpg)
-- **Color Space:** RGB (3 channels)
-
 ## Data Splitting
 
 To effectively train and evaluate the model, the dataset is divided into three subsets:
@@ -64,15 +56,15 @@ To effectively train and evaluate the model, the dataset is divided into three s
 
 **Validation Dataset:**
 
-- **Number of Images:** 2,500
-  - **Dogs:** 1,250 images
-  - **Cats:** 1,250 images
+- **Number of Images:** 5,000
+  - **Dogs:** 2,500 images
+  - **Cats:** 2,500 images
 - **Purpose:** Used to tune hyperparameters and make decisions about model architecture to prevent overfitting.
 - **Content:** Includes input images and labels.
 
 **Test Dataset:**
 
-- **Number of Images:** 2,500
+- **Number of Images:** 12,500
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
 - **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
 
