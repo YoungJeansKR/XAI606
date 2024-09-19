@@ -1,4 +1,4 @@
-# Classification of Dog and Cat Images Using Convolutional Neural Networks
+# Classification of Dog and Cat Images via Convolutional Neural Networks
 
 ## Contents
 
