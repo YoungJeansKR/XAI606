@@ -8,6 +8,7 @@
   - [Motivation](#motivation)</br>
 - III. [Dataset Description](#dataset-description)
   - [Overview of the Dog and Cat Dataset](#overview-of-the-dog-and-cat-dataset)
+  - [Data Preprocessing](#data-preprocessing)
   - [Data Splitting](#data-splitting)
   - [Access to the Datasets](#access-to-the-datasets)
 
@@ -21,33 +22,35 @@
 
 ### Objective
 
-The primary objective of this research is to design and optimize a deep learning model capable of accurately classifying images of dogs and cats. The model will be trained on a large-scale dataset and evaluated using rigorous statistical methods to ensure its reliability and generalizability.
+The primary objective of this project is to develop a robust image classification model that can accurately distinguish between images of dogs and cats. By leveraging advanced machine learning techniques, specifically Convolutional Neural Networks (CNNs), we aim to achieve high accuracy in classifying these images, which can serve as a foundation for more complex image recognition tasks in the future.
 
 ### Motivation
 
 The motivation behind this project stems from several key considerations:
-1. Technological Advancement: Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
-2. Practical Applications: Accurate classification models can be applied in numerous industries, including pet-related businesses, veterinary diagnostics, content filtering on social media platforms, and e-commerce, where automated image tagging and sorting are valuable.
-3. Educational Contribution: The project serves as an educational resource, offering insights into deep learning methodologies, data preprocessing techniques, and model evaluation strategies. It provides a practical framework for students and researchers to engage with contemporary machine learning challenges.
+1. **Technological Advancement**: Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
+2. **Practical Applications**: Accurate classification models can be applied in numerous industries, including pet-related businesses, veterinary diagnostics, content filtering on social media platforms, and e-commerce, where automated image tagging and sorting are valuable.
+3. **Educational Contribution**: The project serves as an educational resource, offering insights into deep learning methodologies, data preprocessing techniques, and model evaluation strategies. It provides a practical framework for students and researchers to engage with contemporary machine learning challenges.
 
 ## Dataset Description
 
 ### Overview of the Dog and Cat Dataset
 
 The dataset comprises a total of 25,000 color images of dogs and cats, sourced to represent a wide range of breeds, poses, and environments. This diversity is crucial for training a model that can generalize well to new, unseen data.
-Total Images: 25,000
-Dog Images: 12,500
-Cat Images: 12,500
-Image Format: JPEG (.jpg)
-Color Space: RGB (3 channels)
-Data Preprocessing
+- Total Images: 25,000
+  - Dog Images: 12,500
+  - Cat Images: 12,500
+- Image Format: JPEG (.jpg)
+- Color Space: RGB (3 channels)
+
+### Data Preprocessing
+
 To prepare the dataset for model training, several preprocessing steps are applied:
-Resizing: All images are resized to 128x128 pixels to ensure uniformity and reduce computational requirements.
-Normalization: Pixel values are scaled to a range of [0, 1] by dividing by 255, which facilitates better convergence during training.
-Data Augmentation: For the training set, data augmentation techniques are employed to enhance model robustness:
-Random Horizontal Flipping
-Random Rotation: Up to ±15 degrees
-Random Zooming: Up to 10%
+- Resizing: All images are resized to 128x128 pixels to ensure uniformity and reduce computational requirements.
+- Normalization: Pixel values are scaled to a range of [0, 1] by dividing by 255, which facilitates better convergence during training.
+- Data Augmentation: For the training set, data augmentation techniques are employed to enhance model robustness:
+  - Random Horizontal Flipping
+  - Random Rotation: Up to ±15 degrees
+  - Random Zooming: Up to 10%
 
 ### Data Splitting
 
