@@ -39,3 +39,5 @@ By improving classification accuracy on the Fashion-MNIST dataset, we can develo
 ### Data Splitting
 
 ### Access to the Datasets
+
+https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link
