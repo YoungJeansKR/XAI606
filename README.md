@@ -16,7 +16,7 @@
 
 ## Project Title
 
-## Deep Learning for Accurate Classification of Dog and Cat Images
+**Deep Learning for Accurate Classification of Dog and Cat Images**
 
 ## Project Introduction
 
@@ -33,7 +33,16 @@ The motivation behind this project stems from several key considerations:
 
 ## Dataset Description
 
-### Overview of the Dog and Cat Dataset
+The dataset comprises a substantial collection of images of dogs and cats, sourced to represent a wide variety of breeds, poses, and environments. This diversity ensures that the model learns to generalize well to new, unseen data.
+
+### Dataset Details
+
+- **Total Number of Images:** 25,000
+  - **Dog Images:** 12,500
+  - **Cat Images:** 12,500
+- **Image Format:** JPEG (.jpg)
+- **Image Size:** Varied original sizes, standardized to 128x128 pixels during preprocessing
+- **Color Mode:** RGB (3 channels)
 
 The dataset comprises a total of 25,000 color images of dogs and cats, sourced to represent a wide range of breeds, poses, and environments. This diversity is crucial for training a model that can generalize well to new, unseen data.
 - **Total Images:** 25,000
@@ -42,35 +51,28 @@ The dataset comprises a total of 25,000 color images of dogs and cats, sourced t
 - **Image Format:** JPEG (.jpg)
 - **Color Space:** RGB (3 channels)
 
-### Data Preprocessing
-
-To prepare the dataset for model training, several preprocessing steps are applied:
-- **Resizing:** All images are resized to 128x128 pixels to ensure uniformity and reduce computational requirements.
-- **Normalization:** Pixel values are scaled to a range of [0, 1] by dividing by 255, which facilitates better convergence during training.
-- **Data Augmentation:** For the training set, data augmentation techniques are employed to enhance model robustness:
-  - Random Horizontal Flipping
-  - Random Rotation: Up to ±15 degrees
-  - Random Zooming: Up to 10%
-
 ### Data Splitting
 
-The dataset is systematically divided into training, validation, and test sets to facilitate model development and evaluation.
-Training Set
-Size: 20,000 images
-Dogs: 10,000 images
-Cats: 10,000 images
-Purpose: Used to train the CNN model, allowing it to learn distinguishing features between the two classes.
-Content: Includes input images and corresponding labels (ground truth).
-Validation Set
-Size: 2,500 images
-Dogs: 1,250 images
-Cats: 1,250 images
-Purpose: Used to tune hyperparameters and prevent overfitting by validating the model's performance during training.
-Content: Includes input images and corresponding labels.
-Test Set
-Size: 2,500 images
-Purpose: Used for the final evaluation of the model's predictive capabilities.
-Content: Contains only input images without labels. Participants will generate predictions on this set, which will be used to assess the model's accuracy.
+To effectively train and evaluate the model, the dataset is divided into three subsets:
+
+**Training Dataset**
+- **Number of Images:** 20,000
+  - **Dogs:** 10,000 images
+  - **Cats:** 10,000 images
+- **Purpose:** Used to train the model by allowing it to learn features and patterns associated with each class.
+- **Content:** Includes both the input images and their corresponding labels (dog or cat).
+
+**Validation Dataset**
+- **Number of Images:** 2,500
+  - **Dogs:** 1,250 images
+  - **Cats:** 1,250 images
+- **Purpose:** Used to tune hyperparameters and make decisions about model architecture to prevent overfitting.
+- **Content:** Includes input images and labels.
+
+**Test Dataset**
+- **Number of Images:** 2,500
+- **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
+- **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
 
 ### Access to the Datasets
 The dataset is hosted on a publicly accessible Google Drive folder to facilitate easy downloading:
