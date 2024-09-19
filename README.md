@@ -27,9 +27,9 @@ The primary objective of this project is to develop a robust image classificatio
 ### Motivation
 
 The motivation behind this project stems from several key considerations:
-1. **Technological Advancement:** Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
-2. **Practical Applications:** Accurate classification models can be applied in numerous industries, including pet-related businesses, veterinary diagnostics, content filtering on social media platforms, and e-commerce, where automated image tagging and sorting are valuable.
-3. **Educational Contribution:** The project serves as an educational resource, offering insights into deep learning methodologies, data preprocessing techniques, and model evaluation strategies. It provides a practical framework for students and researchers to engage with contemporary machine learning challenges.
+**- Technological Advancement:** Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
+**- Practical Applications:** Accurate classification models can be applied in numerous industries, including pet-related businesses, veterinary diagnostics, content filtering on social media platforms, and e-commerce, where automated image tagging and sorting are valuable.
+**- Educational Contribution:** The project serves as an educational resource, offering insights into deep learning methodologies, data preprocessing techniques, and model evaluation strategies. It provides a practical framework for students and researchers to engage with contemporary machine learning challenges.
 
 ## Dataset Description
 
