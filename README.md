@@ -54,7 +54,7 @@ The dataset comprises a total of 25,000 color images of dogs and cats, sourced t
 
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
-**Training Dataset**
+**Training Dataset:**
 
 - **Number of Images:** 20,000
   - **Dogs:** 10,000 images
@@ -62,7 +62,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Purpose:** Used to train the model by allowing it to learn features and patterns associated with each class.
 - **Content:** Includes both the input images and their corresponding labels (dog or cat).
 
-**Validation Dataset**
+**Validation Dataset:**
 
 - **Number of Images:** 2,500
   - **Dogs:** 1,250 images
@@ -70,7 +70,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Purpose:** Used to tune hyperparameters and make decisions about model architecture to prevent overfitting.
 - **Content:** Includes input images and labels.
 
-**Test Dataset**
+**Test Dataset:**
 
 - **Number of Images:** 2,500
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
