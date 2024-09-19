@@ -33,7 +33,6 @@ The motivation behind this project stems from several key considerations:
 The dataset comprises a substantial collection of images of dogs and cats, sourced to represent a wide variety of breeds, poses, and environments. This diversity ensures that the model learns to generalize well to new, unseen data.
 
 ### Dataset Details
-
 - **Total Number of Images:** 25,000
   - **Dog Images:** 12,500
   - **Cat Images:** 12,500
@@ -49,7 +48,6 @@ The dataset comprises a total of 25,000 color images of dogs and cats, sourced t
 - **Color Space:** RGB (3 channels)
 
 ### Data Splitting
-
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
 **Training Dataset**
@@ -82,11 +80,9 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
 - **Training and Validation:**
   - Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
   - Experiment with different architectures, hyperparameters, and preprocessing techniques to optimize performance.
-
 - **Testing:**
   - Apply your trained model to the test dataset to generate predictions.
   - Submit your predicted labels for the test images in the specified format (e.g., a CSV file with image filenames and predicted labels).
-
 - **Evaluation Metrics:**
   - **Accuracy:** The primary metric for evaluating model performance.
   - **Confusion Matrix:** To understand the types of errors made by the model.
