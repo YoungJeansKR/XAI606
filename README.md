@@ -7,10 +7,10 @@
   - [Objective](#objective)
   - [Motivation](#motivation)</br>
 - III. [Dataset Description](#dataset-description)
-  - [Overview of the Dog and Cat Dataset](#overview-of-the-dog-and-cat-dataset)
-  - [Data Preprocessing](#data-preprocessing)
+  - [Dataset Details](#dataset-details)
   - [Data Splitting](#data-splitting)
   - [Access to the Datasets](#access-to-the-datasets)
+  - [Instructions for Participants](#instructions-for-participants)
 
 <!-- tocstop -->
 
@@ -74,18 +74,23 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
 - **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
 
-  
-
 ### Access to the Datasets
 
 The dataset is hosted on a publicly accessible Google Drive folder to facilitate easy downloading:
 - **Google Drive Link:** [Dog vs. Cat Dataset](https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link) </br>
 *Note: Ensure you have sufficient storage space and a stable internet connection before downloading the dataset.*
 
-Instructions for Participants:
-Training and Validation:
-Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
-Experiment with different architectures, hyperparameters, and preprocessing techniques to optimize performance.
-Testing:
-Apply your trained model to the test dataset to generate predictions.
-Submit your predicted labels for the test images in the specified format (e.g., a CSV file with image filenames and predicted labels).
+### Instructions for Participants
+
+- Training and Validation:
+  - Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
+  - Experiment with different architectures, hyperparameters, and preprocessing techniques to optimize performance.
+
+- Testing:
+  - Apply your trained model to the test dataset to generate predictions.
+  - Submit your predicted labels for the test images in the specified format (e.g., a CSV file with image filenames and predicted labels).
+
+- Evaluation Metrics:
+  - Accuracy: The primary metric for evaluating model performance.
+  - Confusion Matrix: To understand the types of errors made by the model.
+  - Precision and Recall: For a more detailed performance analysis, especially if classes are imbalanced.
