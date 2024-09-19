@@ -79,15 +79,15 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
 
 ### Instructions for Participants
 
-- Training and Validation:
+- **Training and Validation:**
   - Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
   - Experiment with different architectures, hyperparameters, and preprocessing techniques to optimize performance.
 
-- Testing:
+- **Testing:**
   - Apply your trained model to the test dataset to generate predictions.
   - Submit your predicted labels for the test images in the specified format (e.g., a CSV file with image filenames and predicted labels).
 
-- Evaluation Metrics:
-  - Accuracy: The primary metric for evaluating model performance.
-  - Confusion Matrix: To understand the types of errors made by the model.
-  - Precision and Recall: For a more detailed performance analysis, especially if classes are imbalanced.
+- **Evaluation Metrics:**
+  - **Accuracy:** The primary metric for evaluating model performance.
+  - **Confusion Matrix:** To understand the types of errors made by the model.
+  - **Precision and Recall:** For a more detailed performance analysis, especially if classes are imbalanced.
