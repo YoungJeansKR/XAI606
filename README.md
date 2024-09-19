@@ -10,6 +10,9 @@ Repository of lecture "Applications and Practice in Neural Networks (XAI606)"
   - [Objective](#objective)
   - [Motivation](#motivation)</br>
 - III. [Dataset Description](#dataset-description)
+  - [Overview of the Fashion-MNIST Dataset](#overview-of-the-fashion-mnist-dataset)
+  - [Data Splitting](#data-splitting)
+  - [Access to the Datasets](#access-to-the-datasets)
 
 <!-- tocstop -->
 
@@ -30,3 +33,9 @@ In the rapidly evolving fashion industry, efficient and accurate classification 
 By improving classification accuracy on the Fashion-MNIST dataset, we can develop models that better understand visual features of fashion items, which can be extended to more complex and real-world datasets. This not only advances the field of computer vision but also has significant implications for the retail and e-commerce industries.
 
 ## Dataset Description
+
+### Overview of the Fashion-MNIST Dataset
+
+### Data Splitting
+
+### Access to the Datasets
