@@ -10,7 +10,7 @@ Repository of lecture "Applications and Practice in Neural Networks (XAI606)"
   - [Objective](#objective)
   - [Motivation](#motivation)</br>
 - III. [Dataset Description](#dataset-description)
-  - [Overview of the Fashion-MNIST Dataset](#overview-of-the-fashion-mnist-dataset)
+  - [Overview of the Dog and Cat Dataset](#overview-of-the-dog-and-cat-dataset)
   - [Data Splitting](#data-splitting)
   - [Access to the Datasets](#access-to-the-datasets)
 
