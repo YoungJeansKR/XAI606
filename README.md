@@ -17,11 +17,11 @@
 
 ## Project Introduction
 
-### Objective
+## Objective
 
 The primary objective of this project is to develop a robust image classification model that can accurately distinguish between images of dogs and cats. By leveraging advanced machine learning techniques, specifically Convolutional Neural Networks (CNNs), we aim to achieve high accuracy in classifying these images, which can serve as a foundation for more complex image recognition tasks in the future.
 
-### Motivation
+## Motivation
 
 The motivation behind this project stems from several key considerations:
 - **Technological Advancement:** Enhancing image classification algorithms contributes to the broader field of computer vision, facilitating advancements in autonomous systems, robotics, and artificial intelligence.
@@ -32,7 +32,7 @@ The motivation behind this project stems from several key considerations:
 
 The dataset comprises a substantial collection of images of dogs and cats, sourced to represent a wide variety of breeds, poses, and environments. This diversity ensures that the model learns to generalize well to new, unseen data.
 
-### Dataset Details
+## Dataset Details
 - **Total Number of Images:** 25,000
   - **Dog Images:** 12,500
   - **Cat Images:** 12,500
@@ -47,7 +47,7 @@ The dataset comprises a total of 25,000 color images of dogs and cats, sourced t
 - **Image Format:** JPEG (.jpg)
 - **Color Space:** RGB (3 channels)
 
-### Data Splitting
+## Data Splitting
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
 **Training Dataset**
@@ -69,13 +69,13 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
 - **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
 
-### Access to the Datasets
+## Access to the Datasets
 
 The dataset is hosted on a publicly accessible Google Drive folder to facilitate easy downloading:
 - **Google Drive Link:** [Dog vs. Cat Dataset](https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link) </br>
 *Note: Ensure you have sufficient storage space and a stable internet connection before downloading the dataset.*
 
-### Instructions for Participants
+## Instructions for Participants
 
 - **Training and Validation:**
   - Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
