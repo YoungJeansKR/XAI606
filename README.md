@@ -1,6 +1,3 @@
-# XAI606
-Repository of lecture "Applications and Practice in Neural Networks (XAI606)"
-
 ## Contents
 
 <!-- toc -->
@@ -18,7 +15,7 @@ Repository of lecture "Applications and Practice in Neural Networks (XAI606)"
 
 ## Project Title
 
-Deep Learning for Accurate Classification of Dog and Cat Images
+**Deep Learning for Accurate Classification of Dog and Cat Images**
 
 ## Project Introduction
 
