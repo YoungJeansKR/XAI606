@@ -1,12 +1,13 @@
+# Deep Learning for Accurate Classification of Dog and Cat Images
+
 ## Contents
 
 <!-- toc -->
 
-- I. [Project Title](#project-title)</br>
-- II. [Project Introduction](#project-introduction)
+- [Project Introduction](#project-introduction)
   - [Objective](#objective)
   - [Motivation](#motivation)</br>
-- III. [Dataset Description](#dataset-description)
+- [Dataset Description](#dataset-description)
   - [Dataset Details](#dataset-details)
   - [Data Splitting](#data-splitting)
   - [Access to the Datasets](#access-to-the-datasets)
