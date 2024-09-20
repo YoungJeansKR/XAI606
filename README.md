@@ -1,4 +1,4 @@
-# Classification of Dog and Cat Images via Convolutional Neural Networks
+<h1 align="center">Classification of Dog and Cat Images via Convolutional Neural Networks</h1>
 
 ## Project Introduction
 
