@@ -99,26 +99,10 @@ Requirements:
 Setup environment
 ```shell script
 # Clone this project repository under your workspace folder
-git clone https://github.com/naver/shine.git --recurse-submodules
-cd shine
+git clone https://github.com/YoungJeansKR/XAI606
+cd XAI606
 # Create conda environment and install the dependencies
-conda env create -n shine -f shine.yml
+conda env create -n XAI606 -f XAI606.yml
 # Activate the working environment
-conda activate shine
-# Install Detectron2 under your workspace folder
-# (Please follow Detectron2 official instructions)
-cd ..
-git clone git@github.com:facebookresearch/detectron2.git
-cd detectron2
-pip install -e .
-```
-Our project uses two submodules,
-[CenterNet2](https://github.com/xingyizhou/CenterNet2.git)
-and
-[Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR.git).
-If you forget to add `--recurse-submodules`, do `git submodule init` and then `git submodule update`.
-
-Set your OpenAI API Key to the environment variable (optional: if you want to generate hierarchies)
-```shell script
-export OPENAI_API_KEY=YOUR_OpenAI_Key
+conda activate XAI606
 ```
