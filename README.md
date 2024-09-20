@@ -77,16 +77,16 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
 ## Baseline Model Implemetation
 
 Implementation Details:
-Programming Language: Python 3.8
-Libraries and Frameworks:
-Pytorch 2.12
-Keras
-NumPy
-Pandas
-Matplotlib
-scikit-learn
-Environment: Jupyter Notebook or any Python IDE
-Hardware Requirements: GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
+- Programming Language: Python 3.8
+- Libraries and Frameworks:
+- Pytorch 2.12
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- scikit-learn
+- Environment: Jupyter Notebook or any Python IDE
+- Hardware Requirements: GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
 
 Requirements:
 - Linux or macOS with Python ≥ 3.8
