@@ -2,8 +2,6 @@
 
 <h2 align="center">Project Introduction</h2>
 
-## 
-
 ## Objective
 
 The primary objective of this project is to develop a robust image classification model that can accurately distinguish between images of dogs and cats. By leveraging advanced machine learning techniques, specifically Convolutional Neural Networks (CNNs), we aim to achieve high accuracy in classifying these images, which can serve as a foundation for more complex image recognition tasks in the future.
