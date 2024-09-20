@@ -1,4 +1,6 @@
-<h1 align="center">![image](https://github.com/user-attachments/assets/62ca1ee2-552c-4bf8-9f2e-d0b8143dc903)</h1>
+<h1 align="center">
+  ![image](https://github.com/user-attachments/assets/62ca1ee2-552c-4bf8-9f2e-d0b8143dc903)
+</h1>
 
 <h1 align="center">Classification of Dog and Cat Images via Convolutional Neural Networks</h1>
 
