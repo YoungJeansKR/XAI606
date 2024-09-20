@@ -73,3 +73,52 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
   - **Accuracy:** The primary metric for evaluating model performance.
   - **Confusion Matrix:** To understand the types of errors made by the model.
   - **Precision and Recall:** For a more detailed performance analysis, especially if classes are imbalanced.
+
+## Baseline Model Implemetation
+
+Implementation Details:
+Programming Language: Python 3.8
+Libraries and Frameworks:
+Pytorch 2.12
+Keras
+NumPy
+Pandas
+Matplotlib
+scikit-learn
+Environment: Jupyter Notebook or any Python IDE
+Hardware Requirements: GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
+
+Requirements:
+- Linux or macOS with Python ≥ 3.8
+- PyTorch ≥ 1.8.2.
+  Install them together at [pytorch.org](https://pytorch.org) to make sure of this. Note, please check
+  PyTorch version matches that is required by Detectron2.
+- Detectron2: follow [Detectron2 installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
+- OpenAI API (optional, if you want to construct hierarchies using LMMs)
+
+Setup environment
+```shell script
+# Clone this project repository under your workspace folder
+git clone https://github.com/naver/shine.git --recurse-submodules
+cd shine
+# Create conda environment and install the dependencies
+conda env create -n shine -f shine.yml
+# Activate the working environment
+conda activate shine
+# Install Detectron2 under your workspace folder
+# (Please follow Detectron2 official instructions)
+cd ..
+git clone git@github.com:facebookresearch/detectron2.git
+cd detectron2
+pip install -e .
+```
+Our project uses two submodules,
+[CenterNet2](https://github.com/xingyizhou/CenterNet2.git)
+and
+[Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR.git).
+If you forget to add `--recurse-submodules`, do `git submodule init` and then `git submodule update`.
+
+Set your OpenAI API Key to the environment variable (optional: if you want to generate hierarchies)
+```shell script
+export OPENAI_API_KEY=YOUR_OpenAI_Key
+```
