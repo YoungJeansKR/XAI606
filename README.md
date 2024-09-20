@@ -35,9 +35,9 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
 
 ## Dataset Details
 
-- **Total Number of Images:** 25,000
-  - **Dog Images:** 12,500
-  - **Cat Images:** 12,500
+- **Total Number of Images:** 37,500
+  - **Dog Images:** 18,750
+  - **Cat Images:** 18,750
 - **Image Format:** JPEG (.jpg)
 - **Image Size:** Varied original sizes, standardized to 128x128 pixels during preprocessing
 - **Color Mode:** RGB (3 channels)
