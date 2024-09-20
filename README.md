@@ -1,20 +1,5 @@
 # Classification of Dog and Cat Images via Convolutional Neural Networks
 
-## Contents
-
-<!-- toc -->
-
-- [Project Introduction](#project-introduction)
-  - [Objective](#objective)
-  - [Motivation](#motivation)</br>
-- [Dataset Description](#dataset-description)
-  - [Dataset Details](#dataset-details)
-  - [Data Splitting](#data-splitting)
-  - [Access to the Datasets](#access-to-the-datasets)
-  - [Instructions for Participants](#instructions-for-participants)
-
-<!-- tocstop -->
-
 ## Project Introduction
 
 ## Objective
