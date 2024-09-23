@@ -86,3 +86,8 @@ conda activate xai606
 # Install the packages
 conda install tensorflow keras pandas numpy scikit-learn matplotlib pillow
 ```
+
+## Contact
+
+If you have any questions, please contact me at the email below.
+<yeongjinkim@korea.ac.kr>
