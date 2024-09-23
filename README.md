@@ -1,9 +1,5 @@
 <h1 align="center">Classification of Dog and Cat Images via Convolutional Neural Networks</h1>
 
-## Project Introduction
-
-Accurate image classification is a fundamental challenge in computer vision, with profound implications for automation and artificial intelligence applications. This project focuses on developing a deep learning model, specifically a Convolutional Neural Network (CNN), to distinguish between images of dogs and cats with high precision. By leveraging a substantial and diverse dataset, the study aims to contribute to the advancement of image recognition technologies and provide a robust model that can be utilized in various real-world scenarios.
-
 ## Objective
 
 The primary objective of this project is to develop a robust image classification model that can accurately distinguish between images of dogs and cats. By leveraging advanced machine learning techniques, specifically Convolutional Neural Networks (CNNs), we aim to achieve high accuracy in classifying these images, which can serve as a foundation for more complex image recognition tasks in the future.
