@@ -84,7 +84,7 @@ conda create -n xai606 python=3.8.19
 # Activate the working environment
 conda activate xai606
 # Install the packages
-conda install tensorflow keras pandas numpy scikit-learn matplotlib pillow
+conda install tensorflow tensorflow-gpu keras pandas numpy=1.23.5 scikit-learn matplotlib pillow
 ```
 
 ## Training
