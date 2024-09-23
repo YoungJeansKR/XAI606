@@ -74,11 +74,11 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
   - **Confusion Matrix:** To understand the types of errors made by the model.
   - **Precision and Recall:** For a more detailed performance analysis, especially if classes are imbalanced.
 
-## Baseline Model Implemetation
+## Installation
 
 Implementation Details:
 - Programming Language:
-  - Python 3.8
+  - Python 3.8.19
 - Libraries and Frameworks:
   - Pytorch 2.12
   - Keras
@@ -91,21 +91,15 @@ Implementation Details:
 - Hardware Requirements:
   - GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
 
-Requirements:
-- Linux or macOS with Python ≥ 3.8
-- PyTorch ≥ 1.8.2.
-  Install them together at [pytorch.org](https://pytorch.org) to make sure of this. Note, please check
-  PyTorch version matches that is required by Detectron2.
-- Detectron2: follow [Detectron2 installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
-- OpenAI API (optional, if you want to construct hierarchies using LMMs)
-
 Setup environment
 ```shell script
 # Clone this project repository under your workspace folder
 git clone https://github.com/YoungJeansKR/XAI606
 cd XAI606
-# Create conda environment and install the dependencies
-conda env create -n XAI606 -f XAI606.yml
+# Create conda environment
+conda create -n xai606 python=3.8.19
 # Activate the working environment
-conda activate XAI606
+conda activate xai606
+# Install the packages
+conda install pytorch orchvision torchaudio
 ```
