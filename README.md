@@ -80,14 +80,14 @@ Implementation Details:
 - Programming Language:
   - Python 3.8.19
 - Libraries and Frameworks:
-  - Pytorch 2.12
+  - Tensorflow
   - Keras
   - NumPy
   - Pandas
   - Matplotlib
   - scikit-learn
 - Environment:
-  - Jupyter Notebook or any Python IDE
+  - Jupyter Notebook
 - Hardware Requirements:
   - GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
 
@@ -101,5 +101,5 @@ conda create -n xai606 python=3.8.19
 # Activate the working environment
 conda activate xai606
 # Install the packages
-conda install pytorch orchvision torchaudio
+conda install tensorflow keras numpy pandas matplotlib scikit-learn
 ```
