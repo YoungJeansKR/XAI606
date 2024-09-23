@@ -1,9 +1,5 @@
 <h1 align="center">Classification of Dog and Cat Images via Convolutional Neural Networks</h1>
 
-## Project Introduction
-
-Accurate image classification is a fundamental challenge in computer vision, with profound implications for automation and artificial intelligence applications. This project focuses on developing a deep learning model, specifically a Convolutional Neural Network (CNN), to distinguish between images of dogs and cats with high precision. By leveraging a substantial and diverse dataset, the study aims to contribute to the advancement of image recognition technologies and provide a robust model that can be utilized in various real-world scenarios.
-
 ## Objective
 
 The primary objective of this project is to develop a robust image classification model that can accurately distinguish between images of dogs and cats. By leveraging advanced machine learning techniques, specifically Convolutional Neural Networks (CNNs), we aim to achieve high accuracy in classifying these images, which can serve as a foundation for more complex image recognition tasks in the future.
@@ -60,19 +56,6 @@ To effectively train and evaluate the model, the dataset is divided into three s
 The dataset is hosted on a publicly accessible Google Drive folder to facilitate easy downloading:
 - **Google Drive Link:** [Dog vs. Cat Dataset](https://drive.google.com/file/d/1PnSKt8yS87-a-v6NitmCfH_xg1p2YQju/view?usp=drive_link) </br>
 *Note: Ensure you have sufficient storage space and a stable internet connection before downloading the dataset.*
-
-## Instructions for Participants
-
-- **Training and Validation:**
-  - Utilize the provided training and validation datasets to develop and fine-tune your image classification models.
-  - Experiment with different architectures, hyperparameters, and preprocessing techniques to optimize performance.
-- **Testing:**
-  - Apply your trained model to the test dataset to generate predictions.
-  - Submit your predicted labels for the test images in the specified format (e.g., a CSV file with image filenames and predicted labels).
-- **Evaluation Metrics:**
-  - **Accuracy:** The primary metric for evaluating model performance.
-  - **Confusion Matrix:** To understand the types of errors made by the model.
-  - **Precision and Recall:** For a more detailed performance analysis, especially if classes are imbalanced.
 
 ## Installation
 
