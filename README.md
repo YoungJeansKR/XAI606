@@ -87,6 +87,18 @@ conda activate xai606
 conda install tensorflow keras pandas numpy scikit-learn matplotlib pillow
 ```
 
+## Training
+
+```shell script
+python train.py
+```
+
+## Evaluation
+
+```shell script
+python eval.py
+```
+
 ## Contact
 
 If you have any questions, please contact me at the email below. </br>
