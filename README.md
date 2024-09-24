@@ -34,6 +34,7 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Number of Images:** 20,000
   - **Dogs:** 10,000 images
   - **Cats:** 10,000 images
+- **Path:** "./train/train"
 - **Purpose:** Used to train the model by allowing it to learn features and patterns associated with each class.
 - **Content:** Includes both the input images and their corresponding labels (dog or cat).
 
@@ -42,12 +43,14 @@ To effectively train and evaluate the model, the dataset is divided into three s
 - **Number of Images:** 5,000
   - **Dogs:** 2,500 images
   - **Cats:** 2,500 images
+- **Path:** "./train/train"
 - **Purpose:** Used to tune hyperparameters and make decisions about model architecture to prevent overfitting.
 - **Content:** Includes input images and labels.
 
 **Test Dataset:**
 
 - **Number of Images:** 12,500
+- **Path:** "./test1/test1"
 - **Purpose:** Used to evaluate the final model performance. Participants will predict labels for these images.
 - **Content:** Only input images are provided without labels to ensure an unbiased evaluation.
 
