@@ -80,7 +80,7 @@ Setup environment
 git clone https://github.com/YoungJeansKR/XAI606
 cd XAI606
 # Create conda environment
-conda create -n xai606 python=3.8.19
+conda create -n xai606 python=3.9.19
 # Activate the working environment
 conda activate xai606
 # Install the packages
