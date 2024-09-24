@@ -61,7 +61,7 @@ The dataset is hosted on a publicly accessible Google Drive folder to facilitate
 
 Implementation Details:
 - Programming Language:
-  - Python 3.8.19
+  - Python 3.9.19
 - Libraries and Frameworks:
   - Tensorflow
   - Keras
