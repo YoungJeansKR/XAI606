@@ -82,8 +82,6 @@ Implementation Details:
   - Pandas
   - Matplotlib
   - scikit-learn
-- Environment:
-  - Jupyter Notebook
 - Hardware Requirements:
   - GPU acceleration recommended for faster training (e.g., NVIDIA GPU with CUDA support)
 
