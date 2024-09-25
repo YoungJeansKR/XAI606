@@ -22,10 +22,18 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
   - **Dog Images:** 18,750
   - **Cat Images:** 18,750
 - **Image Format:** JPEG (.jpg)
-- **Image Size:** Varied original sizes, standardized to 128x128 pixels during preprocessing
 - **Color Mode:** RGB (3 channels)
 
-## Data Splitting
+## Data Preprocessing
+
+- **Resizing:** All images are resized to 128x128 pixels to ensure uniformity and reduce computational requirements.
+- **Normalization:** Pixel values are scaled to a range of [0, 1] by dividing by 255, which facilitates better convergence during training.
+- **Data Augmentation:** For the training set, data augmentation techniques are employed to enhance model robustness:
+  - **Random Horizontal Flipping**
+  - **Random Rotation:** Up to ±15 degrees
+  - **Random Zooming:** Up to 10%
+
+## Data Partitioning
 
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
