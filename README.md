@@ -26,6 +26,8 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
 
 ## Data Preprocessing
 
+To prepare the dataset for model training, several preprocessing steps are applied:
+
 - **Resizing:** All images are resized to 128x128 pixels to ensure uniformity and reduce computational requirements.
 - **Normalization:** Pixel values are scaled to a range of [0, 1] by dividing by 255, which facilitates better convergence during training.
 - **Data Augmentation:** For the training set, data augmentation techniques are employed to enhance model robustness:
