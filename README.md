@@ -33,7 +33,7 @@ The dataset comprises a substantial collection of images of dogs and cats, sourc
   - **Random Rotation:** Up to ±15 degrees
   - **Random Zooming:** Up to 10%
 
-## Data Partitioning
+## Data Splitting
 
 To effectively train and evaluate the model, the dataset is divided into three subsets:
 
